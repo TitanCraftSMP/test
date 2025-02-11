@@ -1,0 +1,15 @@
+name: Flys
+version: '1.0'
+main: com.Minevex.flys.Flys
+api-version: '1.21'
+authors: [ ShadwGHG ]
+website: polixer.de
+commands:
+  fly:
+    description: Ermöglicht einem User das Fliegen.
+    usage: /fly
+
+  premission:
+    flyplugin.use:
+      description: Erlaubt einem User das Fliegen
+      default: true
